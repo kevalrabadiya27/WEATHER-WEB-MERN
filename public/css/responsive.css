@@ -1,0 +1,118 @@
+/* responsive code */
+/* log in page/ */
+@media(max-width:768px) {
+    .main_header_left {
+        height: auto;
+        margin: 5rem 0;
+    }
+
+    #username,
+    #password {
+        border-radius: 5px;
+        height: 35px;
+    }
+
+    .main_header_right {
+        height: auto;
+        margin: 5px;
+    }
+
+    .temp_form {
+        width: auto;
+        margin: auto;
+    }
+
+
+    .tempInfo {
+        width: auto;
+        height: auto;
+        margin: 2px 0;
+
+    }
+
+    ::placeholder {
+        font-size: 14px;
+    }
+
+    .main_layer .middle_layer p,
+    .main_layer .middle_layer .fa {
+        font-size: 4rem;
+        font-weight: 600;
+    }
+
+    .img {
+        width: auto;
+    }
+
+    footer {
+        width: auto;
+        height: auto;
+
+    }
+
+}
+
+/* register page */
+
+@media(max-width:768px) {
+
+    .main_reg table {
+        display: flex;
+        margin: 50px 0;
+        padding: 5px;
+        width: auto;
+        background-color: #fff;
+        border-radius: 0px;
+        height: 280px;
+
+    }
+
+    #table_reg {
+        display: flex;
+        box-shadow: 1px 0px 11px 0px black;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    input {
+        padding: 1px;
+        width: auto;
+        border-radius: 0px;
+    }
+
+    td {
+        padding: 2px;
+        width: auto;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    #box {
+        font-size: 8px;
+        padding: 5px;
+        overflow: hidden;
+        width: auto;
+    }
+
+    #box input {
+        border-radius: 5px;
+    }
+
+    #box input[type="submit"] {
+        border-radius: 5px;
+        width: 75px;
+        color: #fff;
+        margin-top: 30px;
+        margin-left: 55px;
+        background-color: rgb(26, 177, 237);
+        font-size: 12px;
+        font-weight: 700;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+
+    #alredy_reg {
+        font-size: 10px;
+    }
+}
